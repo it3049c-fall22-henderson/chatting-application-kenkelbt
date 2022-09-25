@@ -19,3 +19,4 @@ how many points out of 20 do you deserve on this assignment:
 
 ## Discussion Questions:
 1. What does the bootstrap `display-4` class do?
+The bootstrap `display-4` class changes the font and size of text.
