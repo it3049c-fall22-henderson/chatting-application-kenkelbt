@@ -20,6 +20,15 @@ sendButton.addEventListener("click", function(sendButtonClickEvent) {
 
 });
 
+nameInput.addEventListener("input", function() {
+    if(nameInput.value != ""){
+        myMessage.removeAttribute("disabled");
+    }
+    else {
+        myMessage.setAttribute("disabled", "disabled");
+    }
+});
+
 
 function updateMessagesInChatBox(){
 
